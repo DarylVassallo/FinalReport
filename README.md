@@ -2,10 +2,10 @@
 Code Repository
 
 # Levels In Order:
-Intro Level
-Set Up Level
-First Level
-Second Level
-Third Level
-Fourth Level
-Final Level
+1. Intro Level
+2. Set Up Level
+3. First Level
+4. Second Level
+5. Third Level
+6. Fourth Level
+7. Final Level
