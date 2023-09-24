@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PastPlayer
+  - InteractableObject
+  - LeftHand
+  - RightHand
+  - TemporaryObject
+  - PastChest
+  - ExitPoint
+  - HeavyObject
+  - PlayerControl
+  - SamplesInfoPanel
+  - Portal
+  - FirstBoundary
+  - SecondBoundary
+  - Wall
+  - CenterEyeAnchor
+  - MainPlayerBody
+  - Portal2
+  - PastHead
+  - FxTemporaire
+  - Undefined
+  - RightPastPortal
+  - Button
+  - Corner
+  - Boundary
+  - OVRCameraRig
+  - CornerSetter
+  - Toggle
+  - Exit
+  - Level
+  - BackgroundMusic
+  - Narrator
+  - PlayerBody
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Body
+  - XR Interactable
+  - Gap
+  - Button
+  - Ground
+  - InteractableObject
+  - Portal
+  - ShowInPortal1
+  - ShowInPortal2
+  - ShowOutsidePortal
+  - ShowNowhere
+  - PortalWorld1
+  - PortalWorld2
+  - FirstBoundary
+  - SecondBoundary
+  - test
+  - ShowObjectOutsidePortal
+  - Hands
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

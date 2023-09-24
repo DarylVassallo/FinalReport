@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6093705211672651631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6093705211672651629}
+  - component: {fileID: 6093705211672651618}
+  m_Layer: 0
+  m_Name: RightGestureDetection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6093705211672651629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6093705211672651631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.034399986, y: 1.3299999, z: 1.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6093705211672651618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6093705211672651631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848cb870ab0a3764985289d99ac16578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 0.05
+  skeleton: {fileID: 0}
+  gestures:
+  - name: ThumbsUp
+    fingerDatas:
+    - {x: -0.000000025021018, y: 0.000000024780121, z: 0.0000000066020336}
+    - {x: -0.000000025021018, y: 0.000000024780121, z: 0.0000000066020336}
+    - {x: -0.020068996, y: -0.011553989, z: -0.010496982}
+    - {x: -0.034271743, y: -0.015621122, z: -0.030481694}
+    - {x: -0.058286965, y: -0.02223553, z: -0.051376667}
+    - {x: -0.08381634, y: -0.023695447, z: -0.07346958}
+    - {x: -0.095996246, y: -0.007316448, z: -0.023550741}
+    - {x: -0.105261706, y: -0.04392267, z: -0.019999146}
+    - {x: -0.08108496, y: -0.04235846, z: -0.021923117}
+    - {x: -0.09564663, y: -0.002543161, z: -0.001725895}
+    - {x: -0.09786158, y: -0.045412816, z: -0.0016149981}
+    - {x: -0.0710963, y: -0.04106611, z: -0.006483833}
+    - {x: -0.08869378, y: -0.0065293065, z: 0.017465223}
+    - {x: -0.086562864, y: -0.045270465, z: 0.013556868}
+    - {x: -0.061110746, y: -0.040822137, z: 0.007348174}
+    - {x: -0.034073576, y: -0.009419848, z: 0.022998415}
+    - {x: -0.07789579, y: -0.013691154, z: 0.03505411}
+    - {x: -0.07482933, y: -0.04292443, z: 0.026123565}
+    - {x: -0.054808807, y: -0.04126291, z: 0.023128908}
+    - {x: -0.09541906, y: -0.023605108, z: -0.09518547}
+    - {x: -0.07542581, y: -0.02079641, z: -0.023999302}
+    - {x: -0.06586678, y: -0.01700592, z: -0.010772559}
+    - {x: -0.054852832, y: -0.017339634, z: 0.0053929365}
+    - {x: -0.04542194, y: -0.021416152, z: 0.022780797}
+    onRecognised:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6093705211672651618}
+          m_TargetAssemblyTypeName: GestureDetector, Assembly-CSharp
+          m_MethodName: ThumbsOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: NotThumbsUp
+    fingerDatas:
+    - {x: -0.000000018971525, y: -0.0000000021953328, z: 0.000000044744038}
+    - {x: -0.000000018971525, y: -0.0000000021953328, z: 0.000000044744038}
+    - {x: -0.020068977, y: -0.011554003, z: -0.010496956}
+    - {x: -0.035243582, y: -0.01763223, z: -0.029216815}
+    - {x: -0.059457097, y: -0.028144369, z: -0.04819813}
+    - {x: -0.09057474, y: -0.04105901, z: -0.05081957}
+    - {x: -0.09599621, y: -0.0073164525, z: -0.02355073}
+    - {x: -0.108833306, y: -0.042899616, z: -0.020807134}
+    - {x: -0.08455616, y: -0.043937672, z: -0.021262124}
+    - {x: -0.09564655, y: -0.0025431397, z: -0.0017259358}
+    - {x: -0.1038738, y: -0.044661246, z: -0.0006761216}
+    - {x: -0.076790184, y: -0.045611974, z: -0.0056310534}
+    - {x: -0.08869372, y: -0.0065293433, z: 0.01746526}
+    - {x: -0.09027266, y: -0.045365356, z: 0.014309199}
+    - {x: -0.064872086, y: -0.044504385, z: 0.0065494594}
+    - {x: -0.03407358, y: -0.009419835, z: 0.02299854}
+    - {x: -0.07789579, y: -0.01369117, z: 0.035054047}
+    - {x: -0.075366944, y: -0.04292211, z: 0.025949083}
+    - {x: -0.05597814, y: -0.041734945, z: 0.020014957}
+    - {x: -0.1087283, y: -0.051867936, z: -0.038177352}
+    - {x: -0.075327635, y: -0.02359609, z: -0.022782769}
+    - {x: -0.06662694, y: -0.023341812, z: -0.010668972}
+    - {x: -0.054694783, y: -0.022615673, z: 0.0031261835}
+    - {x: -0.04451063, y: -0.023241421, z: 0.017079541}
+    onRecognised:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: GestureDetector, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  debugMode: 0
+  resetCentre: {fileID: 0}
+  Aura: {fileID: 0}
+  isMoving: 0
+  isConfirming: 0
+  boundary: {fileID: 0}
